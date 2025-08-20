@@ -16,20 +16,19 @@ Mobile game prototype built with Unity. Implements a spin-the-wheel mechanic, re
 
 
 Scripts/
-├─ Domain/              # Pure game rules & data models (no Unity dependencies)
+├─ Domain/               # Pure game rules & data models (no Unity dependencies)
 │  ├─ WheelItem.cs
 │  └─ RouletteData.cs
 │
-├─ Application/         # Use-cases, orchestration of domain logic
-│  ├─ Events/           # Immutable game events
+├─ Application/          # Use-cases, orchestration of domain logic
+│  ├─ Events/            # Immutable game events
 │  │  ├─ AddZoneNumberEvent.cs
-│  │  ├─ RouletteSpinStoppedEvent.cs
-│  │  └─ ...
+│  │  └─ RouletteSpinStoppedEvent.cs
 │  └─ Factories/
 │     ├─ WheelItemFactory.cs
 │     └─ RouletteFactory.cs
 │
-├─ Infrastructure/      # External systems, messaging, configs
+├─ Infrastructure/       # External systems, messaging, configs
 │  ├─ Messaging/
 │  │  ├─ EventBus.cs
 │  │  └─ GlobalBus.cs
@@ -38,18 +37,32 @@ Scripts/
 │     ├─ WheelItemDatabaseSO.cs
 │     └─ ZoneLevelConfigSO.cs
 │
-└─ Presentation/        # MonoBehaviours, UI, Spawners, Animations
-   ├─ Bootstrap/
-   │  └─ UIBootstrapper.cs
-   ├─ Roulette/
-   │  ├─ Spawners/ (RouletteSpawner.cs, RouletteItemSpawner.cs)
-   │  └─ Views/ (RouletteMono.cs, WheelItemMono.cs, RoulettePhysicsSpinner.cs)
-   ├─ UI/
-   │  ├─ Popups/ (CardPopupUIPresenter.cs, BombPopupUIPresenter.cs)
-   │  ├─ Containers/ (ItemContainerMono.cs, ItemSlotUI.cs)
-   │  ├─ Controls/ (SpinButtonBinder.cs, ExitButtonBinder.cs, GiveUpButtonBinder.cs)
-   │  └─ ZoneBar/ (ZoneSlideMono.cs, ZoneNumberItem.cs)
-   └─ Common/           # Shared helpers & extensions
+└─ Presentation/         # MonoBehaviours, UI, Spawners, Animations
+├─ Bootstrap/
+│  └─ UIBootstrapper.cs
+├─ Roulette/
+│  ├─ Spawners/
+│  │  ├─ RouletteSpawner.cs
+│  │  └─ RouletteItemSpawner.cs
+│  └─ Views/
+│     ├─ RouletteMono.cs
+│     ├─ WheelItemMono.cs
+│     └─ RoulettePhysicsSpinner.cs
+├─ UI/
+│  ├─ Popups/
+│  │  ├─ CardPopupUIPresenter.cs
+│  │  └─ BombPopupUIPresenter.cs
+│  ├─ Containers/
+│  │  ├─ ItemContainerMono.cs
+│  │  └─ ItemSlotUI.cs
+│  ├─ Controls/
+│  │  ├─ SpinButtonBinder.cs
+│  │  ├─ ExitButtonBinder.cs
+│  │  └─ GiveUpButtonBinder.cs
+│  └─ ZoneBar/
+│     ├─ ZoneSlideMono.cs
+│     └─ ZoneNumberItem.cs
+└─ Common/            # Shared helpers & extensions
 
 
 📦 Scriptable Objects (Assets/Scriptable)
