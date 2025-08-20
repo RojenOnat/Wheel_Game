@@ -23,13 +23,9 @@ Mobile game prototype built with Unity. Implements a spin-the-wheel mechanic, re
 
 Scripts/
 ├─ Domain/               # Pure game rules & data models (no Unity dependencies)
-
 │  ├─ WheelItem.cs
-
 │  └─ RouletteData.cs
-
 │
-
 ├─ Application/          # Use-cases, orchestration of domain logic
 
 │  ├─ Events/            # Immutable game events
