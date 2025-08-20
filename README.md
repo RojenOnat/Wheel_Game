@@ -5,12 +5,18 @@ Mobile game prototype built with Unity. Implements a spin-the-wheel mechanic, re
 ⸻
 
 ✨ Features
-	•	🎡 Roulette System – Bronze, Silver, and Gold wheels with unique rewards
-	•	⚡ Event-Driven Architecture – loosely coupled communication with immutable events
-	•	🧩 Layered Architecture – clean separation of Domain, Application, Infrastructure, and Presentation
-	•	🖼️ UI System – modular popups, zone bar, and controls
-	•	🗂️ Scriptable Objects – wheel configurations, item databases, and zone settings
-	•	🔄 Factories & Spawners – decoupled object creation and runtime spawning
+	
+ •	🎡 Roulette System – Bronze, Silver, and Gold wheels with unique rewards
+
+ •	⚡ Event-Driven Architecture – loosely coupled communication with immutable events
+
+ •	🧩 Layered Architecture – clean separation of Domain, Application, Infrastructure, and Presentation
+
+ •	🖼️ UI System – modular popups, zone bar, and controls
+
+ •	🗂️ Scriptable Objects – wheel configurations, item databases, and zone settings
+
+ •	🔄 Factories & Spawners – decoupled object creation and runtime spawning
 
 🗂️ Project Structure
 
