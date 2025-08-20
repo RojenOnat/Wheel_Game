@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c982ae747ca474184a89ded530bbb886, type: 3}
+  m_Name: BronzRouletteSO
+  m_EditorClassIdentifier: 
+  TypeData:
+    Id: 1
+    DisplayName: ui_roulette_bronz
+    RouletteIcon: {fileID: 21300000, guid: a52019256b4667d41b1f47c185ccaf2f, type: 3}
+    PointerIcon: {fileID: 21300000, guid: ee160b3a29f37c34c810d0cc76b5b72f, type: 3}
+  RouletteItemList:
+  - {fileID: 11400000, guid: c23b62f23378e480893849aa5e1958dc, type: 2}
+  - {fileID: 11400000, guid: ec01c8c0c78344f7f8d22fbfe253dfd0, type: 2}
+  - {fileID: 11400000, guid: 098feed6e6f1d467dae88304ac9ab64e, type: 2}
+  - {fileID: 11400000, guid: c465b5803d8614e429effd9f4c9a80c8, type: 2}
+  - {fileID: 11400000, guid: d93705c980278436ea8c376f51d6f92d, type: 2}
+  - {fileID: 11400000, guid: 3ff2d9af73f6b475e909df4e6befa21b, type: 2}
+  - {fileID: 11400000, guid: 9a77758ed502c4f44b20cd7e50710ec4, type: 2}
+  - {fileID: 11400000, guid: f44d2976483ec4e898794dde11fcf15d, type: 2}

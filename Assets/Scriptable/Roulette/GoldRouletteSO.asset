@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c982ae747ca474184a89ded530bbb886, type: 3}
+  m_Name: GoldRouletteSO
+  m_EditorClassIdentifier: 
+  TypeData:
+    Id: 3
+    DisplayName: ui_roulette_gold
+    RouletteIcon: {fileID: 21300000, guid: 21c35e7e66da143a886914c1bb0fcda1, type: 3}
+    PointerIcon: {fileID: 21300000, guid: 7fbdb1b0b0afa43f2892f3e4a9904019, type: 3}
+  RouletteItemList:
+  - {fileID: 11400000, guid: 6102dbd0e65b34554bd5a254f635378a, type: 2}
+  - {fileID: 11400000, guid: 63bc2043b05524b298a62fb44f94effa, type: 2}
+  - {fileID: 11400000, guid: 34e0a730cd5bf439b8efac7c8c618605, type: 2}
+  - {fileID: 11400000, guid: c077905fa9fc64d53b01355324123b01, type: 2}
+  - {fileID: 11400000, guid: 4b1616caedbc447e598352376923c84b, type: 2}
+  - {fileID: 11400000, guid: 503f7f22b54524fa1a6639dfc39cc5af, type: 2}
+  - {fileID: 11400000, guid: 335ce3072247d409ab58e487bbe5dfd5, type: 2}
+  - {fileID: 11400000, guid: 17d7496b4d85545dc90cad5c597262f1, type: 2}
